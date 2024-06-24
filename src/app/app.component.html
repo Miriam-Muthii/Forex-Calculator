@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <main>
+    <h1>Currency Converter</h1>
+    <div class="controls" id="controls">
+      <div class="control">
+        <button id="base">USD</button>
+        <input type="number" id="base-input" value="0" min="0" step="0.01">
+      </div>
+      <div class="control">
+        <button id="target">EUR</button>
+        <input type="number" id="target-input" value="0" readonly>
+      </div>
+      <button class="swap-btn" id="swap-btn">
+        <span class="material-symbols-outlined">
+          sync_alt
+          </span>
+      </button>
+    </div>
+    <div class="exchange-rate">
+      <h5>Exchange Rate</h5>
+      <span id="exchange-rate">1 USD = 0.0000 EUR</span>
+    </div>
+    <div class="drawer" id="drawer">
+      <div class="title">
+        <button id="dismiss-btn">
+          <span class="material-symbols-outlined">
+            west
+            </span>
+        </button>
+        <h3>Select Currency</h3>
+      </div>
+      <div class="search">
+        <input type="search" id="search" placeholder="Search">
+      </div>
+      <ul class="currency-list" id="currency-list">
+        <li>
+          <img src="https:/placehold.co/48" alt="">
+          <div>
+            <h4>USD</h4>
+            <p>US Dollar</p>
+          </div>
+        </li>
+        <li>
+          <img src="https:/placehold.co/48" alt="">
+          <div>
+            <h4>USD</h4>
+            <p>US Dollar</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="https:/placehold.co/48" alt="">
+          <div>
+            <h4>USD</h4>
+            <p>US Dollar</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="https:/placehold.co/48" alt="">
+          <div>
+            <h4>USD</h4>
+            <p>US Dollar</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="https:/placehold.co/48" alt="">
+          <div>
+            <h4>USD</h4>
+            <p>US Dollar</p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
