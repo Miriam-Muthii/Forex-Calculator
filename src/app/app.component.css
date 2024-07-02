@@ -23,7 +23,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, var(--blue), var(--green));
+  background: linear-gradient(135deg, var(--blue), var(--white));
 }
 
 main {
@@ -87,7 +87,7 @@ button {
 .control button::after {
   font-family: 'Material Symbols Outlined';
   font-size: 1.5rem;
-  content: 'e94f';
+  
 }
 
 .control button:hover {
